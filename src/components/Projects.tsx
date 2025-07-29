@@ -17,13 +17,13 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "Aplicação de gerenciamento de tarefas com funcionalidades de colaboração em tempo real, utilizando Socket.io e React.",
+      title: "Suape Eco Flow",
+      description: "Plataforma para integração no site da SUAPE para trocas de resíduos. Sistema completo com frontend, backend e integração com API do OpenAI para otimização de processos.",
       image: "/placeholder-project-2.jpg",
-      technologies: ["React", "Socket.io", "Express", "PostgreSQL", "TypeScript"],
-      github: "#",
-      live: "#",
-      status: "Em desenvolvimento"
+      technologies: ["React", "Node.js", "OpenAI API", "TypeScript", "Tailwind CSS"],
+      github: "https://github.com/AnaBeatriz-devfs",
+      live: "https://suape-eco-flow.lovable.app/",
+      status: "Concluído"
     },
     {
       id: 3,
