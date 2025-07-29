@@ -50,7 +50,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-muted-foreground">ana.beatriz@email.com</p>
+                    <p className="text-muted-foreground">anyysaitou24@gmail.com</p>
                   </div>
                 </div>
                 
@@ -80,19 +80,23 @@ const Contact = () => {
               <h4 className="text-lg font-semibold mb-4">Redes Sociais</h4>
               <div className="flex space-x-4">
                 <a 
-                  href="#" 
+                  href="https://github.com/darussiak" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
                   className="p-3 border border-border rounded-lg hover:border-primary hover:bg-primary/10 transition-all duration-300 group"
                 >
                   <Github className="h-6 w-6 group-hover:text-primary transition-colors" />
                 </a>
                 <a 
-                  href="#" 
+                  href="https://www.linkedin.com/in/ana-beatriz777/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
                   className="p-3 border border-border rounded-lg hover:border-primary hover:bg-primary/10 transition-all duration-300 group"
                 >
                   <Linkedin className="h-6 w-6 group-hover:text-primary transition-colors" />
                 </a>
                 <a 
-                  href="#" 
+                  href="mailto:anyysaitou24@gmail.com"
                   className="p-3 border border-border rounded-lg hover:border-primary hover:bg-primary/10 transition-all duration-300 group"
                 >
                   <Mail className="h-6 w-6 group-hover:text-primary transition-colors" />
@@ -110,9 +114,10 @@ const developer = {
     "Frontend Development",
     "Backend Development", 
     "UI/UX Design",
-    "Mobile Apps"
+    "Mobile Development"
   ],
-  contact: "ana.beatriz@email.com"
+  github: "darussiak",
+  email: "anyysaitou24@gmail.com"
 };`}
               </pre>
             </div>

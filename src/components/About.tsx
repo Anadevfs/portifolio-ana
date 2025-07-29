@@ -13,14 +13,17 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <div className="code-block p-6 rounded-lg">
-              <pre className="text-sm">
+              <pre className="text-sm leading-relaxed">
 {`{
   "nome": "Ana Beatriz",
   "idade": 22,
   "formacao": "Ciência da Computação",
   "status": "Formanda",
-  "paixao": "Programação Full Stack",
-  "objetivo": "Criar soluções inovadoras"
+  "especialidade": "Full Stack Development",
+  "paixao": "Criar soluções inovadoras",
+  "github": "github.com/darussiak",
+  "linkedin": "ana-beatriz777",
+  "email": "anyysaitou24@gmail.com"
 }`}
               </pre>
             </div>

@@ -65,6 +65,7 @@ export default {
 					text: 'hsl(var(--code-text))'
 				},
 				highlight: 'hsl(var(--highlight))',
+				'accent-color': 'hsl(var(--accent-color))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

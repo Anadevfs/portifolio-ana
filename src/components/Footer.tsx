@@ -52,7 +52,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold">Contato</h4>
             <div className="space-y-2 text-sm">
               <p className="text-primary-foreground/80">
-                📧 ana.beatriz@email.com
+                📧 anyysaitou24@gmail.com
               </p>
               <p className="text-primary-foreground/80">
                 📱 +55 (11) 99999-9999
@@ -65,19 +65,23 @@ const Footer = () => {
             {/* Social Links */}
             <div className="flex space-x-4 pt-2">
               <a 
-                href="#" 
+                href="https://github.com/darussiak" 
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="p-2 bg-primary-foreground/10 rounded-lg hover:bg-primary-foreground/20 transition-colors"
               >
                 <Github className="h-5 w-5" />
               </a>
               <a 
-                href="#" 
+                href="https://www.linkedin.com/in/ana-beatriz777/" 
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="p-2 bg-primary-foreground/10 rounded-lg hover:bg-primary-foreground/20 transition-colors"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
               <a 
-                href="#" 
+                href="mailto:anyysaitou24@gmail.com"
                 className="p-2 bg-primary-foreground/10 rounded-lg hover:bg-primary-foreground/20 transition-colors"
               >
                 <Mail className="h-5 w-5" />

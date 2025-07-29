@@ -118,9 +118,16 @@ const Projects = () => {
         </div>
         
         <div className="text-center mt-12">
-          <Button variant="outline" size="lg" className="hover:bg-primary hover:text-primary-foreground transition-colors">
-            <Github className="h-5 w-5 mr-2" />
-            Ver Mais Projetos no GitHub
+          <Button 
+            variant="outline" 
+            size="lg" 
+            className="hover:bg-primary hover:text-primary-foreground transition-colors"
+            asChild
+          >
+            <a href="https://github.com/darussiak" target="_blank" rel="noopener noreferrer">
+              <Github className="h-5 w-5 mr-2" />
+              Ver Mais Projetos no GitHub
+            </a>
           </Button>
         </div>
       </div>
