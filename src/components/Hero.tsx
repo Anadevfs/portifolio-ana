@@ -8,8 +8,12 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="animate-fade-in">
           <div className="mb-8">
-            <div className="w-40 h-40 mx-auto mb-8 rounded-full modern-gradient flex items-center justify-center text-5xl font-bold text-white shadow-2xl accent-glow">
-              AB
+            <div className="w-40 h-40 mx-auto mb-8 rounded-full overflow-hidden shadow-2xl accent-glow border-4 border-white/20">
+              <img 
+                src="/lovable-uploads/8b527852-4a72-4fde-afe7-4ac8dcfe9710.png" 
+                alt="Ana Beatriz" 
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
           
@@ -46,7 +50,7 @@ const Hero = () => {
           
           <div className="flex justify-center space-x-8">
             <a 
-              href="https://github.com/darussiak" 
+              href="https://github.com/AnaBeatriz-devfs" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-4 rounded-xl border-2 border-gray-600 hover:border-white hover:bg-white hover:text-black transition-all duration-300 group hover:scale-110 hover:shadow-xl"

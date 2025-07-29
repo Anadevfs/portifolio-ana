@@ -7,12 +7,12 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-commerce Platform",
-      description: "Plataforma completa de e-commerce com React, Node.js e MongoDB. Inclui sistema de pagamentos, gestão de produtos e painel administrativo.",
+      title: "Eva Escritórios",
+      description: "Plataforma completa para escritórios com React, Node.js e integração com IA. Sistema full stack com frontend moderno, backend robusto e API de inteligência artificial.",
       image: "/placeholder-project-1.jpg",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
-      github: "#",
-      live: "#",
+      technologies: ["React", "Node.js", "IA API", "TypeScript", "Tailwind CSS"],
+      github: "https://github.com/AnaBeatriz-devfs",
+      live: "https://evaescritorios.com.br/",
       status: "Concluído"
     },
     {
@@ -124,7 +124,7 @@ const Projects = () => {
             className="hover:bg-primary hover:text-primary-foreground transition-colors"
             asChild
           >
-            <a href="https://github.com/darussiak" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/AnaBeatriz-devfs" target="_blank" rel="noopener noreferrer">
               <Github className="h-5 w-5 mr-2" />
               Ver Mais Projetos no GitHub
             </a>

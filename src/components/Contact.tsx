@@ -80,7 +80,7 @@ const Contact = () => {
               <h4 className="text-lg font-semibold mb-4">Redes Sociais</h4>
               <div className="flex space-x-4">
                 <a 
-                  href="https://github.com/darussiak" 
+                  href="https://github.com/AnaBeatriz-devfs" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-3 border border-border rounded-lg hover:border-primary hover:bg-primary/10 transition-all duration-300 group"
@@ -116,7 +116,7 @@ const developer = {
     "UI/UX Design",
     "Mobile Development"
   ],
-  github: "darussiak",
+  github: "AnaBeatriz-devfs",
   email: "anyysaitou24@gmail.com"
 };`}
               </pre>

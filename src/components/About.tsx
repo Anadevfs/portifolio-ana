@@ -21,7 +21,7 @@ const About = () => {
   "status": "Formanda",
   "especialidade": "Full Stack Development",
   "paixao": "Criar soluções inovadoras",
-  "github": "github.com/darussiak",
+  "github": "github.com/AnaBeatriz-devfs",
   "linkedin": "ana-beatriz777",
   "email": "anyysaitou24@gmail.com"
 }`}
