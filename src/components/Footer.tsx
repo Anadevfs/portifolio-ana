@@ -54,12 +54,12 @@ const Footer = () => {
               <p className="text-primary-foreground/80">
                 📧 anyysaitou24@gmail.com
               </p>
-              <p className="text-primary-foreground/80">
-                📱 +55 (11) 99999-9999
-              </p>
-              <p className="text-primary-foreground/80">
-                📍 São Paulo, Brasil
-              </p>
+               <p className="text-primary-foreground/80">
+                 📱 (81) 99721-4369
+               </p>
+               <p className="text-primary-foreground/80">
+                 📍 Recife, Pernambuco
+               </p>
             </div>
             
             {/* Social Links */}

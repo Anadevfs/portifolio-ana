@@ -18,9 +18,12 @@ const About = () => {
   "nome": "Ana Beatriz",
   "idade": 22,
   "formacao": "Ciência da Computação",
-  "status": "Formanda",
+  "escola": "Infinity School",
   "especialidade": "Full Stack Development",
-  "paixao": "Criar soluções inovadoras",
+  "foco": "IA, Web, WordPress",
+  "linguagens": "Python, Java, C++",
+  "cyberseguranca": true,
+  "localizacao": "Recife, PE",
   "github": "github.com/AnaBeatriz-devfs",
   "linkedin": "ana-beatriz777",
   "email": "anyysaitou24@gmail.com"
@@ -29,16 +32,14 @@ const About = () => {
             </div>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Sou uma desenvolvedora em formação apaixonada por tecnologia e inovação. 
-              Atualmente cursando Ciência da Computação, dedico meu tempo a aprender 
-              e aplicar conhecimentos tanto no frontend quanto no backend, sempre 
-              buscando criar experiências digitais excepcionais.
+              Estudante de Ciência da Computação em formação na Infinity School, com foco em 
+              desenvolvimento Full Stack. Especializo-me em Inteligência Artificial, 
+              Desenvolvimento Web e WordPress, trabalhando com tecnologias como Python, Java e C++.
             </p>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Minha jornada na programação começou com curiosidade e se transformou 
-              em paixão. Cada linha de código é uma oportunidade de resolver problemas 
-              e criar algo impactante.
+              Além do desenvolvimento, tenho interesse em Cybersegurança e sempre busco 
+              criar soluções inovadoras que combinem tecnologia e impacto social.
             </p>
           </div>
           
@@ -63,7 +64,7 @@ const About = () => {
               <CardContent className="p-6 text-center">
                 <MapPin className="h-12 w-12 mx-auto mb-4 text-primary" />
                 <h3 className="font-semibold mb-2">Localização</h3>
-                <p className="text-muted-foreground">Brasil</p>
+                <p className="text-muted-foreground">Recife, PE</p>
               </CardContent>
             </Card>
             

@@ -54,25 +54,25 @@ const Contact = () => {
                   </div>
                 </div>
                 
-                <div className="flex items-center space-x-4">
-                  <div className="p-3 bg-primary/10 rounded-lg">
-                    <Phone className="h-6 w-6 text-primary" />
-                  </div>
-                  <div>
-                    <p className="font-medium">Telefone</p>
-                    <p className="text-muted-foreground">+55 (11) 99999-9999</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-center space-x-4">
-                  <div className="p-3 bg-primary/10 rounded-lg">
-                    <MapPin className="h-6 w-6 text-primary" />
-                  </div>
-                  <div>
-                    <p className="font-medium">Localização</p>
-                    <p className="text-muted-foreground">São Paulo, Brasil</p>
-                  </div>
-                </div>
+                 <div className="flex items-center space-x-4">
+                   <div className="p-3 bg-primary/10 rounded-lg">
+                     <Phone className="h-6 w-6 text-primary" />
+                   </div>
+                   <div>
+                     <p className="font-medium">Telefone</p>
+                     <p className="text-muted-foreground">(81) 99721-4369</p>
+                   </div>
+                 </div>
+                 
+                 <div className="flex items-center space-x-4">
+                   <div className="p-3 bg-primary/10 rounded-lg">
+                     <MapPin className="h-6 w-6 text-primary" />
+                   </div>
+                   <div>
+                     <p className="font-medium">Localização</p>
+                     <p className="text-muted-foreground">Recife, Pernambuco</p>
+                   </div>
+                 </div>
               </div>
             </div>
             

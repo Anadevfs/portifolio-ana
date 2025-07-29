@@ -33,9 +33,9 @@ const Hero = () => {
           </div>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Estudante de Ciência da Computação, 22 anos
+            Estudante de Ciência da Computação | Desenvolvedora Full Stack em formação (Infinity School)
             <br />
-            Transformando ideias em código e criando experiências digitais únicas
+            Foco em Inteligência Artificial, Desenvolvimento Web e WordPress | Python • Java • C++ • Cybersegurança
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
