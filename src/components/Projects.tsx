@@ -27,12 +27,12 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "Weather Dashboard",
-      description: "Dashboard interativo de previsão do tempo com gráficos dinâmicos e integração com APIs de meteorologia.",
+      title: "Delegacia Ágil PE",
+      description: "Sistema digital para agilizar processos em delegacias de Pernambuco, facilitando o registro de ocorrências e melhorando a eficiência do atendimento.",
       image: "/placeholder-project-3.jpg",
-      technologies: ["Vue.js", "Chart.js", "Weather API", "Vuetify"],
-      github: "#",
-      live: "#",
+      technologies: ["React", "TypeScript", "Tailwind CSS", "Node.js"],
+      github: "https://github.com/AnaBeatriz-devfs/delegacia-agil-pe",
+      live: "https://delegacia-agil-pe.lovable.app/",
       status: "Concluído"
     },
     {
