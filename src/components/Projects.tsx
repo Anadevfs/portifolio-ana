@@ -37,8 +37,8 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: "Portfolio Website",
-      description: "Site pessoal moderno e responsivo desenvolvido com React e Tailwind CSS, com design minimalista em preto e branco.",
+      title: "Construindo o Amanhã",
+      description: "Projeto socioeducacional que conecta jovens órfãos em transição para a vida adulta ao conhecimento, às oportunidades e ao mercado de trabalho. Por meio de uma plataforma digital interativa, oferecemos capacitação técnica, desenvolvimento de habilidades, suporte emocional e empregabilidade.",
       image: "/placeholder-project-4.jpg",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
       github: "https://github.com/AnaBeatriz-devfs/construindo-futuros-digitais",
