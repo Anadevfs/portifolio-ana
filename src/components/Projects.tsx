@@ -43,7 +43,7 @@ const Projects = () => {
       technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
       github: "https://github.com/AnaBeatriz-devfs/construindo-futuros-digitais",
       live: "https://construindo-futuros-digitais.lovable.app/",
-      status: "Em desenvolvimento"
+      status: "Concluído"
     }
   ];
 
