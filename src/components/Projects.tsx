@@ -41,8 +41,8 @@ const Projects = () => {
       description: "Site pessoal moderno e responsivo desenvolvido com React e Tailwind CSS, com design minimalista em preto e branco.",
       image: "/placeholder-project-4.jpg",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
-      github: "#",
-      live: "#",
+      github: "https://github.com/AnaBeatriz-devfs/construindo-futuros-digitais",
+      live: "https://construindo-futuros-digitais.lovable.app/",
       status: "Em desenvolvimento"
     }
   ];
