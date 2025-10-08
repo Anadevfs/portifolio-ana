@@ -28,14 +28,8 @@ const Hero = () => {
             <span className="text-green-400">"Full Stack"</span><span className="text-gray-400">;</span>
           </div>
           
-          <div className="gradient-text text-2xl md:text-3xl font-bold mb-4">
-            Desenvolvedora Full Stack
-          </div>
-          
           <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Estudante de Ciência da Computação | Desenvolvedora Full Stack em formação (Infinity School)
-            <br />
-            Foco em Inteligência Artificial, Desenvolvimento Web e WordPress | Python • Java • C++ • Cybersegurança
+            Desenvolvedora Full Stack | Foco em Inteligência Artificial, Desenvolvimento Web e WordPress | Python • Java • C++ • Cybersegurança
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
