@@ -33,10 +33,12 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
-            <Button size="lg" className="modern-gradient text-white hover:scale-105 transition-all duration-300 shadow-2xl px-8 py-4 text-lg font-semibold">
-              <Download className="mr-3 h-6 w-6" />
-              Download CV
-            </Button>
+            <a href="/Ana_Beatriz_Curriculo.pdf" download="Ana_Beatriz_Curriculo.pdf">
+              <Button size="lg" className="modern-gradient text-white hover:scale-105 transition-all duration-300 shadow-2xl px-8 py-4 text-lg font-semibold">
+                <Download className="mr-3 h-6 w-6" />
+                Download CV
+              </Button>
+            </a>
             <Button variant="outline" size="lg" className="border-2 border-white/20 text-white hover:bg-white hover:text-black transition-all duration-300 hover:scale-105 px-8 py-4 text-lg font-semibold">
               Ver Projetos
             </Button>
