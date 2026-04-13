@@ -46,7 +46,7 @@ const Hero = () => {
           
           <div className="flex justify-center space-x-8">
             <a 
-              href="https://github.com/AnaBeatriz-devfs" 
+              href="https://github.com/Anadevfs" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-4 rounded-xl border-2 border-gray-600 hover:border-white hover:bg-white hover:text-black transition-all duration-300 group hover:scale-110 hover:shadow-xl"

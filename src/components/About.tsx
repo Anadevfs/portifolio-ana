@@ -24,7 +24,7 @@ const About = () => {
   "linguagens": "Python, Java, C++",
   "cyberseguranca": true,
   "localizacao": "Recife, PE",
-  "github": "github.com/AnaBeatriz-devfs",
+  "github": "github.com/Anadevfs",
   "linkedin": "ana-beatriz777",
   "email": "anyysaitou24@gmail.com"
 }`}

@@ -65,7 +65,7 @@ const Footer = () => {
             {/* Social Links */}
             <div className="flex space-x-4 pt-2">
               <a 
-                href="https://github.com/AnaBeatriz-devfs" 
+                href="https://github.com/Anadevfs" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-2 bg-primary-foreground/10 rounded-lg hover:bg-primary-foreground/20 transition-colors"
