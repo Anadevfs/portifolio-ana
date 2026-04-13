@@ -11,7 +11,7 @@ const Projects = () => {
       description: "Plataforma completa para escritórios com React, Node.js e integração com IA. Sistema full stack com frontend moderno, backend robusto e API de inteligência artificial.",
       image: "/placeholder-project-1.jpg",
       technologies: ["React", "Node.js", "IA API", "TypeScript", "Tailwind CSS"],
-      github: "https://github.com/AnaBeatriz-devfs",
+      github: "https://github.com/Anadevfs",
       live: "https://evaescritorios.com.br/",
       status: "Concluído"
     },
@@ -21,7 +21,7 @@ const Projects = () => {
       description: "Plataforma para integração no site da SUAPE para trocas de resíduos. Sistema completo com frontend, backend e integração com API do OpenAI para otimização de processos.",
       image: "/placeholder-project-2.jpg",
       technologies: ["React", "Node.js", "OpenAI API", "TypeScript", "Tailwind CSS"],
-      github: "https://github.com/AnaBeatriz-devfs",
+      github: "https://github.com/Anadevfs",
       live: "https://suape-eco-flow.lovable.app/",
       status: "Concluído"
     },
@@ -31,7 +31,7 @@ const Projects = () => {
       description: "Sistema digital para agilizar processos em delegacias de Pernambuco, facilitando o registro de ocorrências e melhorando a eficiência do atendimento.",
       image: "/placeholder-project-3.jpg",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Node.js"],
-      github: "https://github.com/AnaBeatriz-devfs/delegacia-agil-pe",
+      github: "https://github.com/Anadevfs",
       live: "https://delegacia-agil-pe.lovable.app/",
       status: "Concluído"
     },
@@ -41,7 +41,7 @@ const Projects = () => {
       description: "Projeto socioeducacional que conecta jovens órfãos em transição para a vida adulta ao conhecimento, às oportunidades e ao mercado de trabalho. Por meio de uma plataforma digital interativa, oferecemos capacitação técnica, desenvolvimento de habilidades, suporte emocional e empregabilidade.",
       image: "/placeholder-project-4.jpg",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
-      github: "https://github.com/AnaBeatriz-devfs/construindo-futuros-digitais",
+      github: "https://github.com/Anadevfs",
       live: "https://construindo-futuros-digitais.lovable.app/",
       status: "Concluído"
     }
@@ -124,7 +124,7 @@ const Projects = () => {
             className="hover:bg-primary hover:text-primary-foreground transition-colors"
             asChild
           >
-            <a href="https://github.com/AnaBeatriz-devfs" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Anadevfs" target="_blank" rel="noopener noreferrer">
               <Github className="h-5 w-5 mr-2" />
               Ver Mais Projetos no GitHub
             </a>
