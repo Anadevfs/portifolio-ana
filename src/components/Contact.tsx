@@ -50,7 +50,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-muted-foreground">anyysaitou24@gmail.com</p>
+                    <p className="text-muted-foreground">Analimabea09@gmail.com</p>
                   </div>
                 </div>
                 
@@ -96,7 +96,7 @@ const Contact = () => {
                   <Linkedin className="h-6 w-6 group-hover:text-primary transition-colors" />
                 </a>
                 <a 
-                  href="mailto:anyysaitou24@gmail.com"
+                  href="mailto:Analimabea09@gmail.com"
                   className="p-3 border border-border rounded-lg hover:border-primary hover:bg-primary/10 transition-all duration-300 group"
                 >
                   <Mail className="h-6 w-6 group-hover:text-primary transition-colors" />
@@ -117,7 +117,7 @@ const developer = {
     "Mobile Development"
   ],
   github: "Anadevfs",
-  email: "anyysaitou24@gmail.com"
+  email: "Analimabea09@gmail.com"
 };`}
               </pre>
             </div>

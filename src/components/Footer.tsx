@@ -52,7 +52,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold">Contato</h4>
             <div className="space-y-2 text-sm">
               <p className="text-primary-foreground/80">
-                📧 anyysaitou24@gmail.com
+                📧 Analimabea09@gmail.com
               </p>
                <p className="text-primary-foreground/80">
                  📱 (81) 99721-4369
@@ -81,7 +81,7 @@ const Footer = () => {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a 
-                href="mailto:anyysaitou24@gmail.com"
+                href="mailto:Analimabea09@gmail.com"
                 className="p-2 bg-primary-foreground/10 rounded-lg hover:bg-primary-foreground/20 transition-colors"
               >
                 <Mail className="h-5 w-5" />
