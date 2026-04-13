@@ -18,7 +18,7 @@ const About = () => {
   "nome": "Ana Beatriz",
   "idade": 23,
   "formacao": "Ciência da Computação",
-  "escola": "Infinity School",
+  "escola": "UniFBV Wyden",
   "especialidade": "Full Stack Development",
   "foco": "IA, Web, WordPress",
   "linguagens": "Python, Java, C++",
@@ -32,7 +32,7 @@ const About = () => {
             </div>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Estudante de Ciência da Computação em formação na Infinity School, com foco em 
+              Estudante de Ciência da Computação em formação na UniFBV Wyden, com foco em 
               desenvolvimento Full Stack. Especializo-me em Inteligência Artificial, 
               Desenvolvimento Web e WordPress, trabalhando com tecnologias como Python, Java e C++.
             </p>
