@@ -16,7 +16,7 @@ const About = () => {
               <pre className="text-sm leading-relaxed">
 {`{
   "nome": "Ana Beatriz",
-  "idade": 22,
+  "idade": 23,
   "formacao": "Ciência da Computação",
   "escola": "Infinity School",
   "especialidade": "Full Stack Development",
@@ -26,7 +26,7 @@ const About = () => {
   "localizacao": "Recife, PE",
   "github": "github.com/Anadevfs",
   "linkedin": "ana-beatriz777",
-  "email": "anyysaitou24@gmail.com"
+  "email": "Analimabea09@gmail.com"
 }`}
               </pre>
             </div>
@@ -56,7 +56,7 @@ const About = () => {
               <CardContent className="p-6 text-center">
                 <Calendar className="h-12 w-12 mx-auto mb-4 text-primary" />
                 <h3 className="font-semibold mb-2">Idade</h3>
-                <p className="text-muted-foreground">22 anos</p>
+                <p className="text-muted-foreground">23 anos</p>
               </CardContent>
             </Card>
             
