@@ -27,12 +27,12 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "Delegacia Ágil PE",
-      description: "Sistema digital para agilizar processos em delegacias de Pernambuco, facilitando o registro de ocorrências e melhorando a eficiência do atendimento.",
+      title: "Portfólio Pessoal",
+      description: "Site pessoal moderno e responsivo desenvolvido com React e Tailwind CSS, apresentando projetos, habilidades técnicas e informações de contato com design minimalista e elegante.",
       image: "/placeholder-project-3.jpg",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Node.js"],
+      technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
       github: "https://github.com/Anadevfs",
-      live: "https://delegacia-agil-pe.lovable.app/",
+      live: "https://anadevfs.netlify.app/",
       status: "Concluído"
     },
     {
