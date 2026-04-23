@@ -22,7 +22,7 @@ const Projects = () => {
       image: "/placeholder-project-2.jpg",
       technologies: ["React", "Node.js", "OpenAI API", "TypeScript", "Tailwind CSS"],
       github: "https://github.com/Anadevfs",
-      live: "https://suape-eco-flow.lovable.app/",
+      live: "https://suape-eco.netlify.app/",
       status: "Concluído"
     },
     {
@@ -42,7 +42,7 @@ const Projects = () => {
       image: "/placeholder-project-4.jpg",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
       github: "https://github.com/Anadevfs",
-      live: "https://construindo-futuros-digitais.lovable.app/",
+      live: "https://construindo-futuros.netlify.app/",
       status: "Concluído"
     }
   ];
