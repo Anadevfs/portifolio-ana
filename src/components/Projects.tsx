@@ -2,6 +2,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Github, ExternalLink, Code } from "lucide-react";
+import evaEncomendasImg from "@/assets/eva-encomendas.png";
 
 const Projects = () => {
   const projects = [
@@ -37,12 +38,12 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: "Construindo o Amanhã",
-      description: "Projeto socioeducacional que conecta jovens órfãos em transição para a vida adulta ao conhecimento, às oportunidades e ao mercado de trabalho. Por meio de uma plataforma digital interativa, oferecemos capacitação técnica, desenvolvimento de habilidades, suporte emocional e empregabilidade.",
-      image: "/placeholder-project-4.jpg",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
+      title: "Controle de Encomendas EVA",
+      description: "Sistema interno desenvolvido para gerenciamento operacional de encomendas em escritórios virtuais e caixas postais. A plataforma permite registrar, comunicar, acompanhar e entregar encomendas em tempo real, com rastreabilidade completa, controle de funcionários, observações operacionais e histórico de movimentações. O sistema foi projetado para substituir processos manuais realizados em planilhas, trazendo mais organização, agilidade e segurança para a operação diária.",
+      image: evaEncomendasImg,
+      technologies: ["React", "TypeScript", "Tailwind CSS", "Java Spring Boot", "PostgreSQL", "Render"],
       github: "https://github.com/Anadevfs",
-      live: "https://construindo-futuros.netlify.app/",
+      live: "https://github.com/Anadevfs",
       status: "Concluído"
     }
   ];
@@ -61,8 +62,17 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project) => (
             <Card key={project.id} className="glass-card group hover:shadow-xl transition-all duration-300 overflow-hidden">
-              <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900 flex items-center justify-center">
-                <Code className="h-16 w-16 text-gray-400" />
+              <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900 flex items-center justify-center overflow-hidden">
+                {project.image && !project.image.startsWith("/placeholder") ? (
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                  />
+                ) : (
+                  <Code className="h-16 w-16 text-gray-400" />
+                )}
               </div>
               
               <CardHeader>
