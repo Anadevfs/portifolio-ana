@@ -15,8 +15,11 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log("Form submitted:", formData);
+    const subject = encodeURIComponent(`Contato de ${formData.name}`);
+    const body = encodeURIComponent(
+      `Nome: ${formData.name}\nEmail: ${formData.email}\n\nMensagem:\n${formData.message}`
+    );
+    window.location.href = `mailto:Analimabea09@gmail.com?subject=${subject}&body=${body}`;
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
