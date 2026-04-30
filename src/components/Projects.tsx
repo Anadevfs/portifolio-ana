@@ -3,6 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Github, ExternalLink, Code } from "lucide-react";
 import evaEncomendasImg from "@/assets/eva-encomendas.png";
+import evaEscritoriosImg from "@/assets/eva-escritorios.png";
+import suapeEcoImg from "@/assets/suape-eco.png";
+import portfolioPessoalImg from "@/assets/portfolio-pessoal.png";
 
 const Projects = () => {
   const projects = [
@@ -10,7 +13,7 @@ const Projects = () => {
       id: 1,
       title: "Eva Escritórios",
       description: "Plataforma completa para escritórios com React, Node.js e integração com IA. Sistema full stack com frontend moderno, backend robusto e API de inteligência artificial.",
-      image: "/placeholder-project-1.jpg",
+      image: evaEscritoriosImg,
       technologies: ["React", "Node.js", "IA API", "TypeScript", "Tailwind CSS"],
       github: "https://github.com/Anadevfs",
       live: "https://evaescritorios.com.br/",
@@ -20,7 +23,7 @@ const Projects = () => {
       id: 2,
       title: "Suape Eco Flow",
       description: "Plataforma para integração no site da SUAPE para trocas de resíduos. Sistema completo com frontend, backend e integração com API do OpenAI para otimização de processos.",
-      image: "/placeholder-project-2.jpg",
+      image: suapeEcoImg,
       technologies: ["React", "Node.js", "OpenAI API", "TypeScript", "Tailwind CSS"],
       github: "https://github.com/Anadevfs",
       live: "https://suape-eco.netlify.app/",
@@ -30,7 +33,7 @@ const Projects = () => {
       id: 3,
       title: "Portfólio Pessoal",
       description: "Site pessoal moderno e responsivo desenvolvido com React e Tailwind CSS, apresentando projetos, habilidades técnicas e informações de contato com design minimalista e elegante.",
-      image: "/placeholder-project-3.jpg",
+      image: portfolioPessoalImg,
       technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
       github: "https://github.com/Anadevfs",
       live: "https://anadevfs.netlify.app/",
