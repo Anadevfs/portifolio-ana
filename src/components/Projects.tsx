@@ -39,7 +39,7 @@ const Projects = () => {
     {
       id: 4,
       title: "Controle de Encomendas EVA",
-      description: "Sistema interno desenvolvido para gerenciamento operacional de encomendas em escritórios virtuais e caixas postais. A plataforma permite registrar, comunicar, acompanhar e entregar encomendas em tempo real, com rastreabilidade completa, controle de funcionários, observações operacionais e histórico de movimentações. O sistema foi projetado para substituir processos manuais realizados em planilhas, trazendo mais organização, agilidade e segurança para a operação diária.",
+      description: "Sistema interno para gerenciamento de encomendas em escritórios virtuais e caixas postais. Permite registrar, comunicar e entregar encomendas em tempo real, com rastreabilidade completa e controle de funcionários, substituindo processos manuais com mais agilidade e segurança.",
       image: evaEncomendasImg,
       technologies: ["React", "TypeScript", "Tailwind CSS", "Java Spring Boot", "PostgreSQL", "Render"],
       github: "https://github.com/Anadevfs",
