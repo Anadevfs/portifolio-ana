@@ -39,7 +39,12 @@ const Hero = () => {
                 Download CV
               </Button>
             </a>
-            <Button variant="outline" size="lg" className="border-2 border-white/20 text-white hover:bg-white hover:text-black transition-all duration-300 hover:scale-105 px-8 py-4 text-lg font-semibold">
+            <Button
+              variant="outline"
+              size="lg"
+              onClick={() => document.querySelector("#projetos")?.scrollIntoView({ behavior: "smooth" })}
+              className="border-2 border-white/20 text-white hover:bg-white hover:text-black transition-all duration-300 hover:scale-105 px-8 py-4 text-lg font-semibold"
+            >
               Ver Projetos
             </Button>
           </div>
